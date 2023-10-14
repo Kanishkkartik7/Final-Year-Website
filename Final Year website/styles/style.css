@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    /* background-color:#F0F4F5; */
+    background-color: #f0f4f5;
+    margin: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px ;
+}
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+.list a{
+    color: black;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+
+
+
+/* PW skills CSS code  */
+
+/* main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+  }
+  
+  main section {
+      width: 50%;
+    }
+  
+    .left-section {
+        margin-left: 5%;
+        position: relative;
+    }
+    
+    .topAngle {
+        width: 25px;
+    }
+  
+    .left-section h1 {
+        font-size: 70px;
+    }
+    
+    .left-section p {
+        color: #7c7c7c;
+        font-size: 18px;
+        margin: 20px 0;
+  }
+  
+  .bottomAngle{
+    width: 25px;
+    position: absolute;
+    right: 25px;
+}
+
+.stethoscope {
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25%;
+    z-index: -1;
+}
+
+.mouse {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+}
+  
+.left-section button {
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background-color: #20bc7e;
+    font-size: 25px;
+    font-weight: 700;
+}
+  
+/* designing the right section */
+
+/* .yellowBox {
+    position: absolute;
+    right: 0;
+}
+  
+.greenBox {
+      width: 35%;
+      bottom: 30px;
+    }
+    
+.yellowBox {
+        width: 30%;
+        bottom: 50px;
+    }
+    
+.doctor {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 90%;
+    } */
+
+    /* PW skills CSS code  */
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 85vh;
+    }
+    main section{
+        width: 50%;
+
+        /* border: black solid 2px; */
+    }
+    .left-section{
+        margin-left: 15%;
+
+    }
+    .left-section h1{
+        font-size: 64px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .left-section p{
+        font-weight: lighter;
+        margin-top: 20px;
+    }
+    .topAngle{
+        width: 25px;
+    }
+    .bottomAngle{
+        position: relative;
+        left: 580px;
+    }
+    .appointment{
+        background-color: #20BC7E;
+        padding: 25px 150px;
+        border-radius: 50px;
+        color: #f0f4f5;
+        font-weight: 900;
+        font-size: 1rem;
+        border: none;
+        margin-top: 20px;
+        margin-right: 200px;
+    }
+    /* {
+        background-color: #ff0a0a;
+        position:absolute;
+        z-index: -1;
+    } */
+    .stethoscope{
+        position:absolute;
+        width: 90%;
+        height: 90%;
+        /* top: 500px; */
+        bottom: 400px;
+        right: 55%;
+        z-index: -1;
+        background-color: #a71616;
+    }
+    .mouse{
+        position: absolute;
+        left: 850px;
+        top: 600px;
+    }
+    .doctor{
+        height: 595px;
+        margin-left: 200px;
+    }
+    
